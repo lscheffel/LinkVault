@@ -1,0 +1,10 @@
+services:
+  flask:
+    build: .
+    image: flask-favs
+    container_name: flask-favs
+    volumes:
+      - ./db:/data/db
+    ports:
+      - "5005:5005"
+    restart: always

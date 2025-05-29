@@ -1,0 +1,69 @@
+# Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+
+# IDE and editor folders/files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Version control
+.git/
+.gitignore
+.svn/
+.hg/
+
+# Environment and secrets
+.env*
+*.env
+*.pem
+*.key
+*.crt
+config.local.*
+*.local.yml
+
+# Documentation and markdown
+*.md
+README*
+
+# Docker and compose files
+Dockerfile*
+docker-compose*
+
+# Temporary and local files
+*.tmp
+tmp/
+temp/
+.local/
+local/
+
+# Build and output directories
+dist/
+build/
+out/
+
+# Debug and log files
+debug/
+*.log
+
+# Project-specific: skip docs directory if present
+docs/
+
+# Test directories (not present, but for future-proofing)
+test/
+tests/
+
+# Node.js, Go, Java (not detected, but for completeness)
+node_modules/
+npm-debug.log
+yarn-debug.log
+/vendor/
+*.test
+.go-cache/
+target/
+*.class
+.gradle/
